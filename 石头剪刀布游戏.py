@@ -12,7 +12,7 @@ class numExceptionError(Exception):
 '''
 
 def main():
-    a = -1
+    a = 0
     while True:
         try:
             a = int(input("请输入： 剪刀（0），石头（1）， 布（2）: "))
