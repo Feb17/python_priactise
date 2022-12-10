@@ -8,3 +8,4 @@ weight_str = input("苹果的重量")
 money = float(price_str) * float(weight_str) #字符串变量转换成浮点型
 
 print(money)
+
