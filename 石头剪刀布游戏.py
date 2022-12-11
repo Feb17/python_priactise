@@ -1,4 +1,3 @@
-
 import random
 
 '''
@@ -11,6 +10,7 @@ class numExceptionError(Exception):
         #return self.errorinfo
 '''
 
+
 def main():
     a = 0
     while True:
@@ -21,11 +21,11 @@ def main():
         except Exception as e:
             print("请输入0 - 2 之间的一个数字")
         else:
-            x = random.randint(0,2)
+            x = random.randint(0, 2)
             if a == x:
                 print("平局")
             elif a == 0 and x == 1:
-                print("你输啦")         
+                print("你输啦")
             elif a == 0 and x == 2:
                 print("你赢啦")
             elif a == 1 and x == 0:
@@ -36,6 +36,7 @@ def main():
                 print("你输啦")
             elif a == 2 and x == 1:
                 print("你赢啦")
+
 
 if __name__ == '__main__':
     main()
