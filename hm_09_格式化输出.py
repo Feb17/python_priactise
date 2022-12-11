@@ -12,3 +12,7 @@ price = float(input("苹果单价："))
 weight = float(input("购买重量："))
 money = price * weight
 print("苹果单价 %.2f元/斤，购买了%.2f斤，需要支付%.2f元" % (price, weight, money))
+
+# 定义一个小数scale，输出 数据比例是25.00%
+scale = 0.25
+print("数据比例是%.2f%%" % (scale * 100))
