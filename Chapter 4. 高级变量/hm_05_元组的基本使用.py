@@ -11,3 +11,4 @@ print(info_tuple.count(18))
 
 # 4. 统计元组数据数量（长度）
 print(len(info_tuple))
+
