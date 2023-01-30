@@ -29,3 +29,4 @@ xiaoming = Person("小明")
 
 xiaoming.game_with_dog(wangcai)
 xiaoming.game_with_dog(xiaotianquan)
+
